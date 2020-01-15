@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <Button android:id="@+id/play" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="播放MP3音乐" />
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <Button android:id="@+id/down" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  android:text="减小" />
+        <ProgressBar android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="150dip" android:layout_height="wrap_content"
+            />
+        <Button android:id="@+id/up" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="增大" />
+    </LinearLayout>
+</LinearLayout>

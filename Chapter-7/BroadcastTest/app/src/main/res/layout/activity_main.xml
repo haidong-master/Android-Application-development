@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        />
+    <EditText
+        android:id="@+id/recMsg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recMsg"/>
+    <Button
+        android:id="@+id/dynamicbtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dynamicbtn"/>
+
+    <EditText
+        android:id="@+id/recStaticMsg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recStaticMsg"/>
+    <Button
+        android:id="@+id/staticbtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/staticbtn"/>
+</LinearLayout>

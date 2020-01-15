@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">binderDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="binder_state">Binder State</string>
+    <string name="title">"a + b = ?"</string>
+    <string name="num1">"a = "</string>
+    <string name="num2">"b = "</string>
+    <string name="result">"result"</string>
+
+    <string name="add">"Add"</string>
+</resources>

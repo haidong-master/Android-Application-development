@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.musicservice">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.musicservice.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".StartServiceActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".bindServiceActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".AIDLMusicActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".BroadcastActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <service
+            android:name=".service.MusicService"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.example.musicservice.service.musicService.intent" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".service.bindMusicService"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.example.musicservice.service.bindMusicReceiver" />
+            </intent-filter>
+        </service>
+
+
+        <service
+            android:name=".AIDLMusicService"
+            android:process=":remote"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.example.musicservice.AIDLMusic" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".broadcastrec.BroadcastService"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.example.broadcastrec.BroadcastService" />
+            </intent-filter>
+        </service>
+        <receiver android:name=".broadcastrec.BroadcastRec">
+            <intent-filter>
+
+                <action android:name="com.expamle.music.Broadcast.static" />
+            </intent-filter>
+        </receiver>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

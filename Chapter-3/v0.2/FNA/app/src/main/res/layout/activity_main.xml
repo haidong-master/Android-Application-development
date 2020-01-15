@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:width= "10dp" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/fruit"
+		/>
+     <Spinner android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/spinner_fruits"
+    />
+    <Button android:id="@+id/analyseBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:text="@string/analyse"
+    />
+</LinearLayout>

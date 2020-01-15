@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/localServiceActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/localServiceActivity" />
+
+    <Button
+        android:id="@+id/bindServiceActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bindServiceActivity" />
+    
+    <Button
+        android:id="@+id/AIDLMusicActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AIDLMusicActivity" />
+	<Button
+        android:id="@+id/BroadcastActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/BroadcastActivity" />
+    
+</LinearLayout>

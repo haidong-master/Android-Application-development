@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow>
+        <TextView
+            android:layout_marginRight="4px"
+            android:text="sans:"
+            android:textSize="20sp"
+            android:textColor="#000" >
+        </TextView>
+        <!-- 使用默认的sans字体 -->
+        <TextView
+            android:id="@+id/sans"
+            android:text="Hello,World"
+            android:textSize="20sp"
+            android:typeface="sans"
+            android:textColor="#000" >
+        </TextView>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_marginRight="4px"
+            android:text="serif:"
+            android:textSize="20sp" 
+            android:textColor="#000">
+        </TextView>
+
+        <!-- 使用默认的serifs字体 -->
+        <TextView
+            android:id="@+id/serif"
+            android:text="Hello,World"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:textColor="#00f" >
+        </TextView>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_marginRight="4px"
+            android:text="monospace:"
+            android:textSize="20sp"
+            android:textColor="#000" >
+        </TextView>
+
+        <!-- 使用默认的monospace字体 -->
+        <TextView
+            android:id="@+id/monospace"
+            android:text="Hello,World"
+            android:textSize="20sp"
+            android:typeface="monospace"
+            android:textColor="#f00" >
+        </TextView>
+    </TableRow>
+</TableLayout>

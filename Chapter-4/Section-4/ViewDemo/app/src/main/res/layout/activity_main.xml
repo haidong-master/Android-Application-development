@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myText="http://schemas.android.com/apk/res/viewdemo.example.com.viewdemo"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <viewdemo.example.com.viewdemo.newView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        myText:textColor="#FFF"
+        myText:textSize="100px"
+        />
+</LinearLayout>

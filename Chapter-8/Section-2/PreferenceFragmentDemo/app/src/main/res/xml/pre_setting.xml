@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="网络权限">
+		<CheckBoxPreference android:key="gps_setting"
+			android:title="启用GPS卫星设置" android:summary="应用程序有使用gps的权限" />
+		<CheckBoxPreference android:key="wireless_setting"
+			android:title="使用无线网络" android:summary="应用程序有使用wireless得权限" />
+		
+	</PreferenceCategory>
+	<PreferenceCategory android:title="个人信息">
+		<CheckBoxPreference android:key="save_info"
+			android:title="是否保存个人信息" />
+		<EditTextPreference android:key="name"
+			android:title="姓名" android:summary="请输入姓名" />
+		<PreferenceScreen android:key="other_msg"
+			android:title="其他个人信息" android:summary="是否工作、手机">
+			<CheckBoxPreference android:key="is_an_employee"
+				android:title="工作" />
+			<EditTextPreference android:key="mobile"
+				android:title="手机" android:summary="请输入手机号" />
+		</PreferenceScreen>
+	</PreferenceCategory>
+</PreferenceScreen>

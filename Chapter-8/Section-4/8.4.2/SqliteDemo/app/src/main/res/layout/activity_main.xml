@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="书名："
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        </TextView>
+        <EditText
+            android:id="@+id/bookname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="作者："
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        </TextView>
+        <EditText
+            android:id="@+id/author"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="现前存书："
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        </TextView>
+        <EditText
+            android:id="@+id/reserve"
+            android:inputType="number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button android:id="@+id/insert"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="insert"
+                android:onClick="add" />
+        <Button android:id="@+id/update"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="update"
+                android:onClick="update" />
+        <Button android:id="@+id/delete"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="delete"
+                android:onClick="delete"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

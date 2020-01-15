@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MusicService</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+
+    <string name="musicService">Music service</string>
+    <string name="musicReceiver">Music Receiver</string>
+    <string name="bindMusicService">Bind Music service</string>
+    <string name="remoteMusicService">Remote Music service</string>
+
+
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="exit">Exit</string>
+
+    <string name="close">Close</string>
+
+
+    <string name="localServiceActivity">Local Music service</string>
+    <string name="bindServiceActivity">bind Local Music service</string>
+    <string name="AIDLMusicActivity">AIDL Music service</string>
+
+    <string name="addMusic">Add Music</string>
+    <string name="listMusic">Music List</string>
+    <string name="edit_text">Input Music</string>
+    <string name="startBroadService">start Broad Service</string>
+    <string name="BroadcastActivity">start Broad Activity</string>
+
+</resources>

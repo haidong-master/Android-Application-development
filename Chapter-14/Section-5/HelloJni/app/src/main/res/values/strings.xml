@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloJni</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello JNI!</string>
+    <string name="return_String">"String from JNI:  "</string>
+    <string name="return_int">"INT from JNI: "</string>
+    <string name="send_String">"String send JNI:  "</string>
+    <string name="send_int">"INT send JNI:  "</string>
+    <string name="file_name">"file name:  "</string>
+    <string name="file_content">"file content:  "</string>
+    <string name="btn_ok">"Save File"</string>
+
+    <string name="android_name">"Android JNI"</string>
+    <string name="action_android">"Android JNI"</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FNA</string>  
+    <string name="fruit">Fruit Type</string>
+    <string name="spinner_fruits">Choose a fruit</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+    <string name="analyse">Analyse Fruit</string>
+    <string name="analyse_title">Analyse Fruit</string>
+    <string name="return_date">"Return Data"</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+
+
+	<Button android:id="@+id/play" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="@string/play" />
+		
+	<Button android:id="@+id/stop" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="@string/stop" />
+
+	<Button android:id="@+id/pause"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:text="@string/pause" />
+
+	<Button android:id="@+id/exit"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:text="@string/exit" />
+	
+
+    
+	<Button android:id="@+id/addMusic"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:text="@string/addMusic" />
+	
+	<EditText  
+    android:id="@+id/edit_text"    
+    android:layout_width="fill_parent"   
+    android:layout_height="wrap_content"   
+    android:text="@string/edit_text"/>	
+	
+	<Button android:id="@+id/listMusic"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:text="@string/listMusic" />	
+	
+	
+		
+		
+</LinearLayout>

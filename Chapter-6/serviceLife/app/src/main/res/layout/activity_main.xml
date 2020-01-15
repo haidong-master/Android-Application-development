@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView 
+	    android:id="@+id/tvView"
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:text=""/> 
+
+	
+	<Button android:text="startService" 
+	     android:id="@+id/startSer"
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content"/>   
+
+	<Button android:text="stopService" 
+     android:id="@+id/stopSer"
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"/>
+</LinearLayout>
